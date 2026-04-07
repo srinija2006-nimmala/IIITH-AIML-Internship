@@ -7,3 +7,8 @@ Generated ~1800 frames (30 fps for 1 minute) and reconstructed video using ffmpe
 Task 3:
 Merged audio with reconstructed video using ffmpeg.
 Links are provided in task2.txt and task3.txt.
+Week 2 Tasks
+Created virtual environment using venv.
+Installed ultralytics package.
+Performed object detection using YOLOv8 pretrained model.
+Output image uploaded (bus detection).
