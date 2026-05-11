@@ -1,0 +1,12 @@
+Week-2 Object Detection Task
+
+Created object detection output using YOLOv8 pretrained model.
+
+Steps Performed:
+1. Extracted video frames
+2. Applied object detection on all frames
+3. Reconstructed annotated frames into video using ffmpeg
+4. Added background music
+
+Final Output Video:
+https://drive.google.com/file/d/1y1507tjrYtJv58eWhMqK0Ckmk04togqO/view?usp=sharing
