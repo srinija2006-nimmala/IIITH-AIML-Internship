@@ -1,0 +1,11 @@
+Week 3 Task 2 - Video Stacking using FFmpeg
+
+1. Created raw video from extracted frames.
+2. Generated object detection video using YOLOv8.
+3. Generated semantic segmentation video using YOLOv8 segmentation model.
+4. Removed audio from all videos using ffmpeg.
+5. Stacked raw, detected and segmented videos vertically using vstack.
+6. Added new background soundtrack to final stacked video.
+
+Output File:
+- final_stacked_video.mp4 - https://drive.google.com/file/d/11jk-nXZpiD6DCun0rp8gov47Dt7WQem8/view?usp=sharing
