@@ -1,0 +1,92 @@
+Week 4 Task 1 - Analysis of YOLO Dataset Configuration and Metadata Files
+
+Introduction:
+YOLO (You Only Look Once) models use a structured dataset format for object detection and segmentation tasks. The dataset contains images, label files and metadata configuration files that help the model understand the training and validation data.
+
+1. Dataset Directory Structure
+
+Typical YOLO dataset structure:
+
+dataset/
+├── images/
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── labels/
+│   ├── train/
+│   ├── val/
+│   └── test/
+└── data.yaml
+
+- images/train contains training images.
+- images/val contains validation images.
+- labels/train contains label text files for training images.
+- labels/val contains label text files for validation images.
+- data.yaml stores dataset configuration details.
+
+2. YAML Configuration File
+
+The YAML file defines:
+- Path to training dataset
+- Path to validation dataset
+- Number of classes
+- Class names
+
+Example:
+
+train: images/train
+val: images/val
+
+nc: 2
+
+names:
+  0: person
+  1: car
+
+Meaning:
+- nc represents number of classes.
+- names stores class labels.
+- train and val define dataset paths.
+
+3. Label Files
+
+Each image has a corresponding label file in YOLO format.
+
+Example:
+0 0.512 0.423 0.315 0.441
+
+Meaning:
+- First value = class number
+- Remaining values = normalized coordinates
+  - x center
+  - y center
+  - width
+  - height
+
+These coordinates help YOLO detect object locations inside images.
+
+4. Importance of Metadata Files
+
+Metadata files are important because they:
+- Organize datasets properly
+- Help YOLO load images and labels
+- Define object classes
+- Support training and validation processes
+
+5. Applications
+
+YOLO datasets are used in:
+- Autonomous vehicles
+- Medical imaging
+- Smart surveillance
+- Drone detection
+- Robotics
+
+Conclusion:
+YOLO dataset configuration files are essential for object detection and segmentation tasks. Proper dataset organization and accurate label files improve model performance and detection accuracy. Understanding dataset structure and metadata files is important for efficient YOLO model training and accurate object detection.
+
+References:
+1. https://docs.ultralytics.com/
+2. https://docs.ultralytics.com/datasets/
+3. https://docs.ultralytics.com/tasks/detect/
+4. https://labelstud.io/
