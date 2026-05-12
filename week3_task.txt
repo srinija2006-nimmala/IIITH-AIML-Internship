@@ -1,0 +1,16 @@
+Week 3 - Semantic Segmentation Task
+
+1. Performed object detection using YOLOv8 pretrained model.
+2. Generated semantic segmentation outputs using YOLOv8 segmentation model.
+3. Processed all extracted video frames.
+4. Reconstructed segmented frames into video using ffmpeg.
+5. Added background music to final segmented video.
+
+Performance Metrics:
+- Detection and segmentation outputs generated successfully.
+- Processed approximately 1800 frames.
+- Output videos created successfully.
+
+Files Generated:
+- segmented_video.mp4 - https://drive.google.com/file/d/1xEFgGEoMHEGMLzshKS3c6PFY5NaaMfAI/view?usp=sharing
+- final_segmented_video.mp4 - https://drive.google.com/file/d/1b73EJ8OA8tjtdVuHqfTk80pi2YlczlpD/view?usp=sharing
