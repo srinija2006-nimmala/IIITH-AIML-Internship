@@ -1,0 +1,18 @@
+Week 5 Task 5 - Final Presentation
+
+Successfully trained a custom YOLOv8 object detection model using a labeled vehicle dataset.
+
+The model was trained to detect:
+
+* car
+* bus
+
+Workflow completed:
+
+1. Dataset creation and annotation using Label Studio.
+2. Image preprocessing and resizing using FFmpeg.
+3. Custom YOLOv8 model training.
+4. Testing trained weights on unseen images.
+5. Automatic vehicle detection using custom-trained model.
+
+This project demonstrates a complete computer vision workflow for real-time object detection applications.
