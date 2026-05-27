@@ -1,0 +1,180 @@
+path: /Users/nimmalasrinija/Desktop/yolo_dataset
+
+train: images/train
+val: images/val
+
+names:Week 5 - Custom YOLO Training
+
+1. Resized dataset images using ffmpeg.
+2. Trained custom YOLOv8 model on labeled dataset.
+3. Generated custom weights using training process.
+4. Tested trained weights on test dataset images.
+5. Successfully detected trained classes using custom model.
+
+Classes:
+- car
+- bus
+
+Tools Used:
+- YOLOv8
+- Label Studio
+- FFmpeg
+- Python
+  0: car
+  1: bus/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0216.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0202.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0175.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0203.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0217.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0229.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0215.jpgWeek 4 Task 2 - Custom YOLO Dataset Creation
+
+Created a custom object detection dataset using Label Studio.
+
+Task Performed:
+1. Installed Label Studio in a separate virtual environment.
+2. Created train, validation and test folders.
+3. Selected vehicle detection task.
+4. Annotated vehicle objects using bounding boxes.
+5. Exported annotations in YOLO format.
+6. Created metadata configuration files:
+   - data.yaml
+   - train.txt
+   - val.txt
+
+Classes Used:
+- car
+- bus
+
+Tools Used:
+- Label Studio
+- YOLOv8
+- Python
+- FFmpeg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0163.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0214.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0228.jpg/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0411.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0201.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0188.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0200.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0416.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0417.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0398.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0429.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0170.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0399.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0206.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0314.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0470.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0465.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0471.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0489.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0488.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0452.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0453.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0447.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0321.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0483.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0326.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0327.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0237.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0182.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0183.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0236.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0219.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0152.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0393.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0218.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0224.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0434.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/val/frame_0435.jpg
+
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0204.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0238.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0199.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0166.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0167.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0239.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0211.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0205.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0415.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0048.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0060.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0115.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0061.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0049.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0071.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0059.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0139.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0070.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0072.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0106.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0107.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0067.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0073.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0095.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0240.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0241.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0094.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0096.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0055.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0109.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0121.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0120.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0108.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0097.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0083.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0252.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0130.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0118.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0119.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0131.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0253.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0247.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0079.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0084.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0047.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0127.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0133.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0132.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0250.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0046.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0085.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0091.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0035.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0223.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0419.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0169.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0155.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0154.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0168.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0430.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0418.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0034.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0036.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0432.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0181.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0156.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0142.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0143.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0157.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0180.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0427.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0433.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0235.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0037.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0190.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0191.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0226.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0420.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0187.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0193.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0144.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0178.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0179.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0151.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0145.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0192.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0421.jpg
+/Users/nimmalasrinija/Desktop/yolo_dataset/images/train/frame_0227.jpg
+
